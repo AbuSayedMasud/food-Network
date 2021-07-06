@@ -122,7 +122,32 @@ color: #252525;
    text-transform: capitalize;
    color: #18191F;
 }
+/******  viewer-area  *********/
+.viewer-area
+{
+    margin: 5%;
+}
+.viewer-area #viewer-id
+{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 15px;
+   
+}
+.viewer-area .viewer
+{
+ width: 26%;
+ margin-left:  7.33%;
 
+
+}
+.viewer-area .viewer h1
+{
+    font-size: 50px;
+    color: #18191F;
+}
 /****  footer  *****/
 .footer-area
 {
