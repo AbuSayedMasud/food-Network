@@ -84,6 +84,45 @@ h2
     text-transform: capitalize;
     font-weight: 600;
 }
+/***********     Recipies-area      ********/
+
+.Recipies-area
+{
+    margin: 5% 5%;
+}
+
+.Recipies-area #Recipies-text
+{
+    text-align: center;
+    width: 47%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.Recipies-area p
+{
+color: #252525;
+}
+.Recipies-area .cards
+{
+    width: 31%;
+    margin:0 1.165% 0 1.165%;
+    padding: 20px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 25px;
+    
+}
+.Recipies-area .cards .card-img img
+{
+    width: 100%;
+}
+.Recipies-area .cards .card-title h4
+{
+   font-size: 26px;
+   text-transform: capitalize;
+   color: #18191F;
+}
+
 /****  footer  *****/
 .footer-area
 {
@@ -95,4 +134,5 @@ h2
 .footer-area p{
     color: #FFFFFF;
 }
+
 
