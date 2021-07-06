@@ -8,13 +8,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <title>Food Network</title>
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <section class="header-area flex-container">
+    <section class="nav-area">
+        <div class="flex-container">
+            <div class="brand-name">
+                <h3><span class="text-color">Food</span> Network</h3>
+            </div>
+            <div class="menu-area ">
+                <div class="flex-container">
+
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">about-me</a></li>
+                    <li><a href="#my-recipies">My Recipies</a></li>
+                    <li><a href="#contact-us">contact-us</a></li>
+                    <li><a href="#">health</a></li>
+                </div>
+
+
+            </div>
+            <div class="icon-area flex-container">
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="header-area flex-container" id="home">
         <div class="half-width">
             <div class="header-text">
                 <h1><span class="text-color">Skip</span> The Diet,</h1>
@@ -30,12 +56,12 @@
 
         </div>
         <div class="half-width">
-            <img src="images/Group 8425.png" alt="">
+            <img src="images/Group 8425.png" alt="Group_image">
         </div>
     </section>
-    <section class="about-me flex-container">
+    <section class="about-me flex-container" id="about">
         <div class="half-width" id="about-img">
-            <img src="images/Person Image.png" alt="">
+            <img src="images/Person Image.png" alt="Person_image">
         </div>
         <div class="half-width">
             <div class="about-text">
@@ -44,13 +70,13 @@
                     Jhankar Mahamud.I am trying to leanering whatever he said in that course.My favorite food kacchi.I
                     create this blog so that food lover can contacts to us and order some food.</p>
                 <div class="anchor">
-                    <a class="click" href="#">contact me</a>
+                    <a class="click" href="#" target="_blank">contact me</a>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="Recipies-area">
+    <section class="Recipies-area" id="my-recipies">
         <div id="Recipies-text">
             <h2>My recipies</h2>
             <p>This is best item in our shop.if you try this once ,you will come back again and again.We also provide
@@ -59,7 +85,7 @@
         <div class="flex-container">
             <div class="cards">
                 <div class="card-img">
-                    <img src="images/Project Cover.jpg" alt="">
+                    <img src="images/Project Cover.jpg" alt="Project_cover">
                 </div>
                 <div class="card-title">
                     <h4>fresh sausage</h4>
@@ -71,7 +97,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="images/Project Cover1.jpg" alt="">
+                    <img src="images/Project Cover1.jpg" alt="Project_cover 1">
                 </div>
                 <div class="card-title">
                     <h4>Pan fried lamb</h4>
@@ -83,7 +109,7 @@
             </div>
             <div class="cards">
                 <div class="card-img">
-                    <img src="images/Project Cover.png" alt="">
+                    <img src="images/Project Cover.png" alt="Project_cover">
                 </div>
                 <div class="card-title">
                     <h4>Fennel Carrot Soup</h4>
@@ -110,6 +136,30 @@
                 <h1>100k</h1>
                 <p>Dribbble Shot Likes</p>
             </div>
+        </div>
+    </section>
+    <section class="Contact-area" id="contact-us">
+        <h2>contact-us</h2>
+        <div class="contact">
+            <form action="#">
+                <div class="flex-container input-text">
+                    <input type="text" placeholder="First name">
+                    <input type="text" placeholder="Last name">
+
+                </div>
+                <div class="flex-container input-text">
+                    <input type="email" placeholder="Email" required>
+                    <input type="number" name="" placeholder="Phone number" id="">
+                </div>
+                <div class="text-area">
+                    <textarea name="" id="" cols="50" rows="13"
+                        placeholder="Please Tell us what you want to say"></textarea>
+
+                </div>
+
+                <input type="submit" value="submit">
+
+            </form>
         </div>
     </section>
     <footer class="footer-area">
